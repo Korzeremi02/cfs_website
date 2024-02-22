@@ -13,14 +13,6 @@ Ce site web est conçu pour présenter les services, les projets, et l'équipe d
 - **RDV:** Une section dédiée pour prendre RDV.
 - **Contact:** Des coordonnées et un formulaire de contact pour permettre aux visiteurs de prendre contact avec l'entreprise.
 
-## Installation
-
-1. Cloner ce dépôt sur votre machine locale.
-2. Assurez-vous d'avoir [Node.js](https://nodejs.org) installé.
-3. Exécutez `npm install` pour installer les dépendances.
-4. Lancez l'application avec `npm start`.
-5. Ouvrez votre navigateur et accédez à `http://localhost:3000` pour voir le site en action.
-
 ## Technologies Utilisées
 
 - React
