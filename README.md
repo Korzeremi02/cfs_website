@@ -1,70 +1,44 @@
-# Getting Started with Create React App
+# CodeForge Solutions Website
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Ce projet est le site web de l'entreprise CodeForge Solutions, développé en utilisant React.
 
-## Available Scripts
+## Description
 
-In the project directory, you can run:
+Ce site web est conçu pour présenter les services, les projets, et l'équipe de CodeForge Solutions. Il vise à fournir aux visiteurs une vue d'ensemble de l'entreprise, ainsi que des moyens de les contacter et de les engager pour des services de développement logiciel sur mesure.
 
-### `npm start`
+## Fonctionnalités
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- **Page d'accueil:** Une introduction à l'entreprise avec des informations sur les services offerts.
+- **Projets:** Une galerie présentant certains des projets récents et remarquables réalisés par l'entreprise.
+- **RDV:** Une section dédiée pour prendre RDV.
+- **Contact:** Des coordonnées et un formulaire de contact pour permettre aux visiteurs de prendre contact avec l'entreprise.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Installation
 
-### `npm test`
+1. Cloner ce dépôt sur votre machine locale.
+2. Assurez-vous d'avoir [Node.js](https://nodejs.org) installé.
+3. Exécutez `npm install` pour installer les dépendances.
+4. Lancez l'application avec `npm start`.
+5. Ouvrez votre navigateur et accédez à `http://localhost:3000` pour voir le site en action.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Technologies Utilisées
 
-### `npm run build`
+- React
+- HTML5
+- CSS3
+- JavaScript
+- [React Router Dom](https://reactrouter.com/) pour la navigation
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Contribuer
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Les contributions sont les bienvenues ! Pour des suggestions, des corrections de bugs ou des fonctionnalités supplémentaires, veuillez ouvrir une issue ou soumettre une pull request.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Auteur
 
-### `npm run eject`
+CodeForge Solutions - [Site Web](https://www.codeforge-solutions.com)
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## License
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Ce projet est sous licence MIT. Voir le fichier [LICENSE](LICENSE) pour plus de détails.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+@2024 CodeForge Solutions - Tous Droits Réservés
