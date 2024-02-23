@@ -1,36 +1,38 @@
-# CodeForge Solutions Website
+# create-svelte
 
-Ce projet est le site web de l'entreprise CodeForge Solutions, développé en utilisant React.
+Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/main/packages/create-svelte).
 
-## Description
+## Creating a project
 
-Ce site web est conçu pour présenter les services, les projets, et l'équipe de CodeForge Solutions. Il vise à fournir aux visiteurs une vue d'ensemble de l'entreprise, ainsi que des moyens de les contacter et de les engager pour des services de développement logiciel sur mesure.
+If you're seeing this, you've probably already done this step. Congrats!
 
-## Fonctionnalités
+```bash
+# create a new project in the current directory
+npm create svelte@latest
 
-- **Page d'accueil:** Une introduction à l'entreprise avec des informations sur les services offerts.
-- **Projets:** Une galerie présentant certains des projets récents et remarquables réalisés par l'entreprise.
-- **RDV:** Une section dédiée pour prendre RDV.
-- **Contact:** Des coordonnées et un formulaire de contact pour permettre aux visiteurs de prendre contact avec l'entreprise.
+# create a new project in my-app
+npm create svelte@latest my-app
+```
 
-## Technologies Utilisées
+## Developing
 
-- React
-- HTML5
-- CSS3
-- JavaScript
-- [React Router Dom](https://reactrouter.com/) pour la navigation
+Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
 
-## Contribuer
+```bash
+npm run dev
 
-Les contributions sont les bienvenues ! Pour des suggestions, des corrections de bugs ou des fonctionnalités supplémentaires, veuillez ouvrir une issue ou soumettre une pull request.
+# or start the server and open the app in a new browser tab
+npm run dev -- --open
+```
 
-## Auteur
+## Building
 
-CodeForge Solutions - [Site Web](https://www.codeforge-solutions.com)
+To create a production version of your app:
 
-## License
+```bash
+npm run build
+```
 
-Ce projet est sous licence MIT. Voir le fichier [LICENSE](LICENSE) pour plus de détails.
+You can preview the production build with `npm run preview`.
 
-@2024 CodeForge Solutions - Tous Droits Réservés
+> To deploy your app, you may need to install an [adapter](https://kit.svelte.dev/docs/adapters) for your target environment.
